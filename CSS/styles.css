@@ -22,8 +22,7 @@ h1{
     margin-left: auto;
     margin-right: auto;
     width: 35vw;
-    border-radius: 20px;
-    transition: width 2000ms;
+    transition: width 1500ms, border-radius 1500ms;
 }
 @keyframes profile{
     0% {display:block; transform: translateX(-100vw)}
@@ -31,6 +30,7 @@ h1{
 }
 .center:hover{
     width: 300px;
+    border-radius: 20px;
 }
 .leerdoel{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
