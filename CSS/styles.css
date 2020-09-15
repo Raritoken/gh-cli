@@ -1,0 +1,64 @@
+body{ 
+    background-color: rgb(113, 211, 170);
+    animation: colors 20s infinite alternate-reverse;
+}
+@keyframes colors{
+  0% {background-color: rgb(113, 211, 170);}
+  25% {background-color: rgb(200, 253, 103);}
+  50% {background-color: rgb(129, 197, 206);}
+  75% {background-color: rgb(253, 159, 214);}
+  100% {background-color: rgb(223, 255, 172);}
+}
+h1{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: red;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+.center{ 
+    animation: profile 2s 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35vw;
+}
+@keyframes profile{
+    0% {display:block; transform: translateX(-100vw)}
+    100% {transform: translateX(0vw);}
+}
+.leerdoel{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    animation: txt 6s infinite alternate;
+}
+@keyframes txt{
+    0% {color: red;}
+    25% {color: greenyellow}
+    50% {color: blue}
+    75% {color: violet;}
+    100% {color: pink;}
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgba(77, 0, 177, 0.788);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+iframe{
+    display: block;
+    margin: 0 auto;
+    width: 72vw;
+    height: 40.5vw;
+}
+@media only screen and(max-device-width:800px){
+    .center{
+        width: 75vw;
+        height: auto;
+    }
+    iframe{
+        width: 100vw;
+        height: auto;
+    }
+}
