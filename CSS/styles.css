@@ -67,3 +67,6 @@ iframe{
         height: auto;
     }
 }
+a:hover, a:active{
+    color:red; text-decoration: underline;
+}
