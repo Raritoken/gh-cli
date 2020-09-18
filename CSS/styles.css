@@ -9,12 +9,19 @@ body{
   75% {background-color: rgb(253, 159, 214);}
   100% {background-color: rgb(223, 255, 172);}
 }
+.roll{
+    text-decoration: none;
+}
 h1{ 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color: red;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
+}
+.toggle:hover, .toggle.acitve:hover{
+    cursor:pointer;
+    color:pink;
 }
 .center{ 
     animation: profile 2s 1;
