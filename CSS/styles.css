@@ -38,7 +38,7 @@ h1{
     margin-right: auto;
     border-radius: 20px;
     width: 300px;
-    transition: width 500ms, border-radius 500ms;
+    transition: width 250ms, border-radius 250ms;
 }
 @keyframes profile{
     0% {display:block; transform: translateX(0vw); width: 0vw;}
