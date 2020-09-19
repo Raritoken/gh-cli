@@ -88,6 +88,7 @@ iframe{
     .center{
         width: 75vw;
         height: auto;
+        font-size: auto;
     }
     iframe{
         width: 100vw;
