@@ -19,8 +19,17 @@ h1{
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
 }
+.toggle{
+    border: 1px;
+    width: 25vw;
+    margin-left: 35vw;
+    display: inline-block;
+    padding: 1vw 2vw;
+    border-radius: 2vw;
+}
 .toggle:hover, .toggle.acitve:hover{
     cursor:pointer;
+    background:black;
     color:pink;
 }
 .center{ 
@@ -28,16 +37,17 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 35vw;
+    border-radius: 20px;
+    width: 300px;
     transition: width 1500ms, border-radius 1500ms;
 }
 @keyframes profile{
-    0% {display:block; transform: translateX(-100vw)}
-    100% {transform: translateX(0vw);}
+    0% {display:block; transform: translateX(-100vw); width: 35vw;}
+    100% {transform: translateX(0vw); width: 300px; border-radius: 20px;}
 }
-.center:hover{
-    width: 300px;
-    border-radius: 20px;
+.center:active{
+    width:35vw;
+    border-radius: 40px;
 }
 .leerdoel{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -57,6 +67,11 @@ p{
     color: rgba(77, 0, 177, 0.788);
     margin-left: 15%;
     margin-right: 15%;
+    border: 1px solid rgba(77, 0, 177, 0.788);
+    padding: 1vw 2vw;
+    background: rgba(186, 255, 246, 0.637);
+    border-radius: 20px;
+    box-shadow: 0.25vw 0.75vw rgba(77, 0, 177, 0.788);
 }
 iframe{
     display: block;
