@@ -17,8 +17,10 @@ h1{
 }
 .toggle{
     border: 1px;
-    width: 25vw;
-    margin-left: 35vw;
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
     display: inline-block;
     padding: 1vw 2vw;
     border-radius: 2vw;
@@ -35,15 +37,16 @@ h1{
 .center{ 
     animation: profile 1s 1;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     border-radius: 20px;
     width: 300px;
     transition: width 250ms, border-radius 250ms;
 }
 @keyframes profile{
-    0% {display:block; transform: translateX(0vw); width: 0vw;}
-    100% {transform: translateX(0vw); width: 300px; border-radius: 20px;}
+    0% {display:block; transform: translateX(-50%); width: 0vw;}
+    100% {transform: translateX(-50%); width: 300px; border-radius: 20px;}
 }
 .center:hover, .center.active:hover{
     display: block;
@@ -78,11 +81,104 @@ p{
 }
 iframe{
     display: block;
-    margin: 0 auto;
+    margin: auto;
     width: 72vw;
     height: 40.5vw;
 }
-@media only screen and(max-device-width:800px){
+.discord{
+    font-weight: bold;
+    text-align: right;
+    width: fit-content;
+    color: black;
+    border: 1px solid black;
+    padding: 1vw 2vw;
+    background: cornflowerblue;
+    border-radius: 0px 20px 20px 0px;
+    left: 0rem;
+    top: 22pt;
+    margin-left: 0vw;
+    position: fixed;
+}
+.discord:hover{
+    cursor: pointer;
+    background: black;
+    color: cornflowerblue;
+}
+.twitch{
+    font-weight: bold;
+    text-align: right;
+    width: fit-content;
+    color: black;
+    border: 1px solid black;
+    padding: 1vw 2vw;
+    background: purple;
+    border-radius: 0px 20px 20px 0px;
+    left: 0rem;
+    top: 65pt;
+    position: fixed;
+    margin-left: 0vw;
+}
+.twitch:hover{
+    cursor: pointer;
+    background: black;
+    color: purple;
+}
+.YouTubeSide{
+    font-weight: bold;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 1vw 2vw;
+    background: red;
+    text-align: right;
+    border-radius: 0px 20px 20px 0px;
+    position: fixed;
+    left: 0rem;
+    top: 108pt;
+    margin-left: 0vw;
+}
+.YouTubeSide:hover{
+    cursor: pointer;
+    background: black;
+    color: red;
+}
+.ToTop{
+    text-align: center;
+    border: 1px solid black;
+    width: fit-content;
+    margin-left: 44vw;
+    border-radius: 20px;
+    padding: 1vw 2vw;
+    color: red;
+    background: black;
+    position: fixed;
+    right: 0rem;
+    bottom: 1rem;
+}
+.ToTop:hover{
+    cursor: pointer;
+    color: black;
+    background: red;
+}
+a:hover, a:active{
+    color:red; text-decoration: underline;
+}
+.YouTube{
+    width: fit-content;
+    border: 1px solid black;
+    padding: 1vw 2vw;
+    background: red;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    left: 50%;
+    margin-left: -100px;
+}
+.YouTube:hover{
+    cursor: pointer;
+    background: black;
+    color: red;
+}
+/*@media only screen and(max-device-width:800px){
     h1{
         font-size: 20px;
     }
@@ -95,12 +191,4 @@ iframe{
         width: 100vw;
         height: auto;
     }
-}
-.discord:hover{
-    cursor: pointer;
-    background: limegreen;
-    color: blue;
-}
-a:hover, a:active{
-    color:red; text-decoration: underline;
-}
+}*/
