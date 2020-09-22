@@ -141,6 +141,42 @@ iframe{
     background: black;
     color: red;
 }
+.Twitter{
+    font-weight: bold;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 1vw 2vw;
+    background: lightskyblue;
+    text-align: right;
+    border-radius: 0px 20px 20px 0px;
+    position: fixed;
+    left: 0rem;
+    top: 151pt;
+    margin-left: 0vw;
+}
+.Twitter:hover{
+    cursor: pointer;
+    background: black;
+    color: lightskyblue;
+}
+.Instagram{
+    font-weight: bold;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 1vw 2vw;
+    background: aliceblue;
+    text-align: right;
+    border-radius: 0px 20px 20px 0px;
+    position: fixed;
+    left: 0rem;
+    top: 194pt;
+    margin-left: 0vw;
+}
+.Instagram:hover{
+    cursor: pointer;
+    background: black;
+    color: aliceblue;
+}
 .ToTop{
     text-align: center;
     border: 1px solid black;

@@ -44,6 +44,18 @@ function Twitch() {
     window.open("https://twitch.tv/raritoken/about", window);
   }
 }
+function Twitter() {
+  var x = document.getElementById("twitter");
+  if (x.onclick) {
+    window.open("https://twitter.com/raritoken/", window);
+  }
+}
+function Instagram() {
+  var x = document.getElementById("instagram");
+  if (x.onclick) {
+    window.open("https://instagram.com/raritoken/", window);
+  }
+}
 function Top() {
   var x = document.getElementById("ScrlTop");
   if (x.onclick) {
