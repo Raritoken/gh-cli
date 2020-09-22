@@ -22,7 +22,13 @@ function myFunction() {
   }
 function RickRoll() {
     var x = document.getElementById("rick");
-    if (x.onclick) {;
+    if (x.onclick) {
         window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", window);
     }
-    }
+  }
+function Discord() {
+  var x = document.getElementById("discord");
+  if (x.onclick) {
+    window.open("https://discord.gg/t7MpXYD", window);
+  }
+}

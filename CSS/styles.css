@@ -53,11 +53,6 @@ h1{
     border: 5px solid rgba(77, 0, 177, 0.788);
     padding: 1vw 2vw green;
 }
-.roll{
-    margin-right: auto;
-    margin-left: auto;
-    width: 600px;
-}
 .leerdoel{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -100,6 +95,11 @@ iframe{
         width: 100vw;
         height: auto;
     }
+}
+.discord:hover{
+    cursor: pointer;
+    background: limegreen;
+    color: blue;
 }
 a:hover, a:active{
     color:red; text-decoration: underline;
