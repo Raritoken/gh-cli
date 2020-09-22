@@ -31,6 +31,10 @@ h1{
     background:black;
     color:pink;
 }
+.easter{
+    display: none;
+    text-align: center;
+}
 .center{ 
     animation: profile 1s 1;
     display: block;
@@ -85,6 +89,9 @@ iframe{
     height: 40.5vw;
 }
 @media only screen and(max-device-width:800px){
+    h1{
+        font-size: 20px;
+    }
     .center{
         width: 75vw;
         height: auto;
