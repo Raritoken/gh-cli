@@ -13,7 +13,7 @@ function myFunction() {
     var x = document.getElementById("myDIV");
     if (x.style.display === "block") {
       x.style.display = "none";
-      window.alert("YOU DARED TO PRESS THE BUTTON AGAIN!?\nHERESY!\n HERESY DARE I SAY!😡🤬", window);
+      window.alert("YOU DARED TO PRESS THE BUTTON AGAIN!?\nHERESY!\nHERESY DARE I SAY!😡🤬", window);
       window.open("http://twitch.tv/raritoken", window);
     } 
     else {
