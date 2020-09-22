@@ -20,3 +20,9 @@ function myFunction() {
       x.style.display = "block";
     }
   }
+function RickRoll() {
+    var x = document.getElementById("rick");
+    if (x.onclick) {;
+        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", window);
+    }
+    }

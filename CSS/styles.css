@@ -48,7 +48,9 @@ h1{
     0% {display:block; transform: translateX(0vw); width: 0vw;}
     100% {transform: translateX(0vw); width: 300px; border-radius: 20px;}
 }
-.center:hover{
+.center:hover, .center.active:hover{
+    display: block;
+    cursor: pointer;
     width: 600px;
     border-radius: 40px;
     border: 5px solid rgba(77, 0, 177, 0.788);
