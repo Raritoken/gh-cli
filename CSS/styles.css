@@ -173,6 +173,7 @@ iframe{
     color: aliceblue;
 }
 .ToTop{
+    display: block;
     text-align: center;
     border: 1px solid black;
     width: fit-content;

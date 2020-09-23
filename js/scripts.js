@@ -56,6 +56,15 @@ function Instagram() {
     window.open("https://instagram.com/raritoken/", window);
   }
 }
+function scrl() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("ScrlTop").style.display = "block";
+  }
+  else {
+    document.getElementById("ScrlTop").style.display = "none";
+  }
+}
+window.onscroll = function() {scrl()};
 function Top() {
   var x = document.getElementById("ScrlTop");
   if (x.onclick) {
