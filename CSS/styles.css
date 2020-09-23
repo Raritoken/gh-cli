@@ -87,16 +87,15 @@ iframe{
 }
 .discord{
     font-weight: bold;
-    text-align: right;
+    text-align: left;
     width: fit-content;
     color: black;
     border: 1px solid black;
-    padding: 1vw 2vw;
+    padding: 10px;
     background: cornflowerblue;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 5px 5px 0px;
     left: 0rem;
-    top: 22pt;
-    margin-left: 0vw;
+    top: 35pt;
     position: fixed;
 }
 .discord:hover{
@@ -106,17 +105,16 @@ iframe{
 }
 .twitch{
     font-weight: bold;
-    text-align: right;
+    text-align: left;
     width: fit-content;
     color: black;
     border: 1px solid black;
-    padding: 1vw 2vw;
+    padding: 10px;
     background: purple;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 5px 5px 0px;
     left: 0rem;
-    top: 65pt;
+    top: 64pt;
     position: fixed;
-    margin-left: 0vw;
 }
 .twitch:hover{
     cursor: pointer;
@@ -127,14 +125,13 @@ iframe{
     font-weight: bold;
     width: fit-content;
     border: 1px solid black;
-    padding: 1vw 2vw;
+    padding: 10px;
     background: red;
-    text-align: right;
-    border-radius: 0px 20px 20px 0px;
+    text-align: left;
+    border-radius: 0px 5px 5px 0px;
     position: fixed;
     left: 0rem;
-    top: 108pt;
-    margin-left: 0vw;
+    top: 93pt;
 }
 .YouTubeSide:hover{
     cursor: pointer;
@@ -145,14 +142,13 @@ iframe{
     font-weight: bold;
     width: fit-content;
     border: 1px solid black;
-    padding: 1vw 2vw;
+    padding: 10px;
     background: lightskyblue;
-    text-align: right;
-    border-radius: 0px 20px 20px 0px;
+    text-align: left;
+    border-radius: 0px 5px 5px 0px;
     position: fixed;
     left: 0rem;
-    top: 151pt;
-    margin-left: 0vw;
+    top: 122pt;
 }
 .Twitter:hover{
     cursor: pointer;
@@ -163,14 +159,13 @@ iframe{
     font-weight: bold;
     width: fit-content;
     border: 1px solid black;
-    padding: 1vw 2vw;
+    padding: 10px;
     background: aliceblue;
-    text-align: right;
-    border-radius: 0px 20px 20px 0px;
+    text-align: left;
+    border-radius: 0px 5px 5px 0px;
     position: fixed;
     left: 0rem;
-    top: 194pt;
-    margin-left: 0vw;
+    top: 151pt;
 }
 .Instagram:hover{
     cursor: pointer;
