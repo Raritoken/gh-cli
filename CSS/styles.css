@@ -91,9 +91,9 @@ iframe{
     width: fit-content;
     color: black;
     border: 1px solid black;
-    padding: 10px;
+    padding: 10px 10px 10px 28px;
     background: cornflowerblue;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 5px 0px 0px;
     left: 0rem;
     top: 35pt;
     position: fixed;
@@ -109,9 +109,9 @@ iframe{
     width: fit-content;
     color: black;
     border: 1px solid black;
-    padding: 10px;
+    padding: 10px 10px 10px 34px;
     background: purple;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 0px 0px 0px;
     left: 0rem;
     top: 64pt;
     position: fixed;
@@ -125,10 +125,10 @@ iframe{
     font-weight: bold;
     width: fit-content;
     border: 1px solid black;
-    padding: 10px;
+    padding: 10px 10px 10px 20px;
     background: red;
     text-align: left;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 0px 0px 0px;
     position: fixed;
     left: 0rem;
     top: 93pt;
@@ -142,10 +142,10 @@ iframe{
     font-weight: bold;
     width: fit-content;
     border: 1px solid black;
-    padding: 10px;
+    padding: 10px 10px 10px 31px;
     background: lightskyblue;
     text-align: left;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 0px 0px 0px;
     position: fixed;
     left: 0rem;
     top: 122pt;
@@ -162,7 +162,7 @@ iframe{
     padding: 10px;
     background: aliceblue;
     text-align: left;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 0px 5px 0px;
     position: fixed;
     left: 0rem;
     top: 151pt;
