@@ -71,3 +71,11 @@ function Top() {
     window.scrollTo(1,1);
   }
 }
+var BNS = ["https://www.bladeandsoul.com/en/download/", "https://www.bladeandsoul.com/en/download/", "https://www.bladeandsoul.com/en/download/", "https://www.bladeandsoul.com/en/download/", "https://www.bladeandsoul.com/en/download/", "https://www.bladeandsoul.com/en/download/", "https://www.youtube.com/watch?v=aU7E0aKYZFo"];
+function BnS() {
+  var x = document.getElementById("bns");
+    if (x.onclick) {
+    var rng = Math.floor(Math.random() * BNS.length);
+    window.open(BNS[rng]);
+  }
+}
